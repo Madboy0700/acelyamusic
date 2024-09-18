@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "122fed0d1520fea600c25d34b0e902ae")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAFNB3AogvJvw-gtib3gf8d3xL-kGF4tAYo")
+BOT_TOKEN = getenv("BOT_TOKEN", "7540507755:AAHlkpG2IqhIvubvp6J5bd5UfAGfnW6I6Fc")
 
 # Database to save your chats and stats.
 
@@ -224,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+     "https://i.imghippo.com/files/YwHAF1726476024.jpg",
      
 
 )
@@ -233,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://i.imghippo.com/files/YwHAF1726476024.jpg",
 
 )
 
@@ -241,7 +241,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Playlist.jpeg",
 
 )
 
@@ -249,7 +249,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Global.jpeg",
 
 )
 
@@ -257,7 +257,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Stats.jpeg",
 
 )
 
@@ -265,7 +265,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Audio.jpeg",
 
 )
 
@@ -273,7 +273,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Video.jpeg",
 
 )
 
@@ -281,7 +281,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Stream.jpeg",
 
 )
 
@@ -289,7 +289,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Soundcloud.jpeg",
 
 )
 
@@ -297,7 +297,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/Youtube.jpeg",
 
 )
 
@@ -305,7 +305,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/SpotifyArtist.jpeg",
 
 )
 
@@ -313,7 +313,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/SpotifyAlbum.jpeg",
 
 )
 
@@ -321,7 +321,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "assets/SpotifyPlaylist.jpeg",
 
 )
 
