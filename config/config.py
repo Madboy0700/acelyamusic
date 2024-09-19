@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "acefb67aaa5647ce2b0362b485d6c743")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAEPkrtdTGbrpE-l1Voin_-vrdd6VjchVec")
+BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAFNB3AogvJvw-gtib3gf8d3xL-kGF4tAYo")
 
 # Database to save your chats and stats.
 
@@ -224,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+     "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
      
 
 )
@@ -233,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -241,7 +241,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -249,7 +249,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -257,7 +257,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -265,7 +265,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -273,7 +273,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -281,7 +281,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -289,7 +289,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -297,7 +297,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -305,7 +305,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -313,7 +313,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -321,7 +321,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "https://cdn.pixabay.com/photo/2024/05/02/08/14/ai-generated-8734143_1280.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
