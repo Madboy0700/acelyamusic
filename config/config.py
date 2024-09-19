@@ -224,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://i.imghippo.com/files/YwHAF1726476024.jpg",
+     "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
      
 
 )
@@ -233,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "https://i.imghippo.com/files/YwHAF1726476024.jpg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
 
 )
 
@@ -241,7 +241,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "assets/Playlist.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
 
 )
 
@@ -249,7 +249,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "assets/Global.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
 
 )
 
@@ -257,7 +257,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "assets/Stats.jpeg",
+    ""https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
 
 )
 
@@ -265,7 +265,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "assets/Audio.jpeg",
+    ""https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
 
 )
 
@@ -273,7 +273,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "assets/Video.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -281,7 +281,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "assets/Stream.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -289,7 +289,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "assets/Soundcloud.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -297,7 +297,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "assets/Youtube.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -305,7 +305,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "assets/SpotifyArtist.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -313,7 +313,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "assets/SpotifyAlbum.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -321,7 +321,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "assets/SpotifyPlaylist.jpeg",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
