@@ -122,6 +122,8 @@ async def stream(
                     caption=_["stream_1"].format(
                         user_name,
                         f"https://t.me/{app.username}?start=info_{vidid}",
+                        title,
+                        duration_min,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -200,10 +202,13 @@ async def stream(
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
-                caption=_["stream_1"].format(
-                    user_name,
-                    f"https://t.me/{app.username}?start=info_{vidid}",
-                ),
+                    caption=_["stream_1"].format(
+                        user_name,
+                        f"https://t.me/{app.username}?start=info_{vidid}",
+                        title,
+                        duration_min,
+                    ),
+                    
                 reply_markup=InlineKeyboardMarkup(button),
             )
             db[chat_id][0]["mystic"] = run
@@ -369,10 +374,12 @@ async def stream(
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
-                caption=_["stream_1"].format(
-                    user_name,
-                    f"https://t.me/{app.username}?start=info_{vidid}",
-                ),
+                    caption=_["stream_1"].format(
+                        user_name,
+                        f"https://t.me/{app.username}?start=info_{vidid}",
+                        title,
+                        duration_min,
+                    ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
             db[chat_id][0]["mystic"] = run
