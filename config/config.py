@@ -224,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
+     "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
      
 
 )
@@ -233,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -241,7 +241,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -249,7 +249,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -257,7 +257,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    ""https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
@@ -265,7 +265,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    ""https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb" dosyasını görüntüle veya indir https://disk.yandex.com.tr/i/Kqg4dGslvIO8SA",
+    "https://disk.yandex.com.tr/a/5Z-2EW_kt7a8xw/66ec48f449d5ae7a312ea6fb",
 
 )
 
