@@ -16,7 +16,7 @@ import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://madboy:19991999@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
+TEMP_MONGODB = "https://github.com/Madboy0700/acelyamusic"
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
