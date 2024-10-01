@@ -44,11 +44,11 @@ async def edit_or_reply(msg: Message, **kwargs):
     & SUDOERS
     & ~filters.forwarded
     & ~filters.via_bot
-)
+    
 async def executor(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="__Nigga Give me some command to execute.__"
+            message, text="Lütfen çalıştırmam için bana komut verin"
         )
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
@@ -76,8 +76,8 @@ async def executor(client, message):
     elif stdout:
         evaluation = stdout
     else:
-        evaluation = "Success"
-    final_output = f"**OUTPUT**:\n```{evaluation.strip()}```"
+        evaluation = "Başarılı!"
+    final_output = f"Çıktı:\n`{evaluation.strip()}```"
     if len(final_output) > 4096:
         filename = "output.txt"
         with open(filename, "w+", encoding="utf8") as out_file:
@@ -95,7 +95,7 @@ async def executor(client, message):
         )
         await message.reply_document(
             document=filename,
-            caption=f"**INPUT:**\n`{cmd[0:980]}`\n\n**OUTPUT:**\n`Attached Document`",
+            caption=f"Girdi:\n`{cmd[0:980]}`\n\nÇıktı:\n`İlişik dökümanda`",
             quote=False,
             reply_markup=keyboard,
         )
@@ -117,9 +117,7 @@ async def executor(client, message):
                 ]
             ]
         )
-        await edit_or_reply(
-            message, text=final_output, reply_markup=keyboard
-        )
+        await edit_or_reply(message, text=final_output, reply_markup=keyboard)
 
 
 @app.on_callback_query(filters.regex(r"runtime"))
