@@ -35,7 +35,7 @@ async def aexec(code, client, message):
 
 async def edit_or_reply(msg: Message, **kwargs):
     func = msg.edit_text if msg.from_user.is_self else msg.reply
-    spec = getfullargspec(func.__wrapped__).args
+    spec = getfullargspec(func.wrapped).args
     await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 
@@ -48,7 +48,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 async def executor(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="Lütfen çalıştırmam için bana komut verin"
+            message, text="Nigga Give me some command to execute."
         )
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
@@ -76,8 +76,8 @@ async def executor(client, message):
     elif stdout:
         evaluation = stdout
     else:
-        evaluation = "Başarılı!"
-    final_output = f"Çıktı:\n`{evaluation.strip()}```"
+        evaluation = "Success"
+    final_output = f"OUTPUT:\n`{evaluation.strip()}```"
     if len(final_output) > 4096:
         filename = "output.txt"
         with open(filename, "w+", encoding="utf8") as out_file:
@@ -95,7 +95,7 @@ async def executor(client, message):
         )
         await message.reply_document(
             document=filename,
-            caption=f"Girdi:\n`{cmd[0:980]}`\n\nÇıktı:\n`İlişik dökümanda`",
+            caption=f"INPUT:\n`{cmd[0:980]}`\n\nOUTPUT:\n`Attached Document`",
             quote=False,
             reply_markup=keyboard,
         )
@@ -117,7 +117,9 @@ async def executor(client, message):
                 ]
             ]
         )
-        await edit_or_reply(message, text=final_output, reply_markup=keyboard)
+        await edit_or_reply(
+            message, text=final_output, reply_markup=keyboard
+        )
 
 
 @app.on_callback_query(filters.regex(r"runtime"))
