@@ -18,11 +18,11 @@ API_HASH = getenv("API_HASH", "acefb67aaa5647ce2b0362b485d6c743")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAFMRXjCxmQeuGts-Oixii-P2AXQKb0sRNY")
+BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAFdLMULcrkCHq2MRqHtn-18d03nsLwVzOA")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy:19991999@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy123:madboy0707@madboy07.r1nef.mongodb.net/?retryWrites=true&w=majority&appName=madboy07")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/ArchBots/ArchMusic",
+    "https://github.com/Madboy0700/acelyamusic",
 
 )
 
@@ -132,7 +132,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
 
-GITHUB_REPO = getenv("GITHUB_REPO", None) 
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Madboy0700/acelyamusic") 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 
