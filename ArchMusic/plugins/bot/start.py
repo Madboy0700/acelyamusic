@@ -116,7 +116,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} kontrol etmek için bota start verdi <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -148,26 +148,26 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
+🔍__**Video Bilgileri**__
 
-❇️**Title:** {title}
+❇️**Başlık:** {title}
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
+⏳**Zaman:** {duration} Mins
+👀**Görüntğleme:** `{views}`
+⏰**Yayınlanan Zaman:** {published}
+🎥**Kanal Adı:** {channel}
+📎**Kanal Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
 
-⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
+⚡️ __ @Mad1Boy tarafından desteklenmektedir {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch ", url=f"{link}"
+                            text="🎥 izle ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="🔄 kapat", callback_data="close"
                         ),
                     ],
                 ]
@@ -185,7 +185,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} kontrol etmek için bota start verdi <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
     else:
         try:
@@ -218,7 +218,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} has just started Bot.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                f"{message.from_user.mention} bot başlatıldı.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
             )
 
 
@@ -232,7 +232,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                "**Müzik botu**\n\nSahibi izin vermemektedir. Önce sahibimden sohbetinize izin vermesini isteyin."
             )
             return await app.leave_chat(message.chat.id)
     else:
@@ -256,7 +256,7 @@ async def welcome(client, message: Message):
                 userbot = await get_assistant(message.chat.id)
                 out = start_pannel(_)
 
-                photo_url = "https://telegra.ph/file/82a0cafdf358e68c052e4.jpg"  # Replace with the actual URL of the video
+                photo_url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s"  # Replace with the actual URL of the video
                 photo_caption = _["start_3"].format(config.MUSIC_BOT_NAME, userbot.username, userbot.id)
 
                 await app.send_photo(
