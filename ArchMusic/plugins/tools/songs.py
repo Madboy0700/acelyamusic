@@ -287,8 +287,8 @@ async def song_download_cb(client, CallbackQuery, _):
         )
 
         visit_button = InlineKeyboardButton(
-            text="🎧 Pulse Music",
-            url=f"https://t.me/PulseSongs"
+            text="🎧 acelya Music",
+            url=f"https://t.me/AcelyaMusicc"
         )
 
         visit_markup = InlineKeyboardMarkup(
@@ -299,7 +299,7 @@ async def song_download_cb(client, CallbackQuery, _):
             media=filename,
             caption=res,
             thumb=thumb_image_path,
-            performer="@PulseMusicBot"
+            performer="@AcelyaMusicBot"
         )
         
         await mystic.edit_text(_["song_11"])
@@ -327,7 +327,7 @@ async def song_download_cb(client, CallbackQuery, _):
             chat_id=channel_id,
             audio=filename,
             caption=rep,
-            performer="@PulseMusicBot",
+            performer="@AcelyaMusicBot",
             thumb=thumb_image_path,
         )
         
