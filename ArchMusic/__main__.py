@@ -42,7 +42,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("ArchMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+            "Hiçbir Spotify Çeşidi tanımlanmadı. Botunuz spotify sorgularını oynatamayacak.."
         )
     try:
         users = await get_gbanned()
@@ -67,16 +67,16 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("ArchMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+            "[ERROR] - \n\nLütfen Kayıt Grubunuzun Sesli Aramasını açın. Günlük grubunuzdaki sesli aramayı asla kapatmadığınızdan / sonlandırmadığınızdan emin olun "
         )
         sys.exit()
     except:
         pass
     await ArchMusic.decorators()
-    LOGGER("ArchMusic").info("Arch Music Bot Started Successfully")
+    LOGGER("ArchMusic").info("Acelya Müzik Başarıyla Başladı")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("ArchMusic").info("Stopping Arch Music Bot! GoodBye")
+    LOGGER("ArchMusic").info("Acelya Müzik Botunu Durduruyorum! Hoşça kalın")
