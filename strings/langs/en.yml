@@ -75,7 +75,7 @@ admin_34 : "İleri Sarılırken Hata Oluştu."
 
 # Start
 start_1 : "**Beni {0} Grubunuza Davet Ettiğiniz İçin Teşekkürler.\n{1} Çalışıyor. ❤️‍🔥\n\nHerhangi Bir Yardım Almak İçin Destek Grubumuza Veya Kanalımıza Göz Atın.**"
-start_2 : "**{0}'una Hoş Geldiniz. 🥀\n\n➻ Harika özelliklere sahip, hızlı ve güçlü bir Telegram müzik çalar botu.\n\n Desteklenen Platformlar: </b>  YouTube, Spotify, Resco, Apple Music ve SoundCloud.\n──────────────────\n <b>๏ Modüllerim ve komutlarım hakkında bilgi almak için Yardım düğmesini tıklayın.</b>"
+start_2 : "**{0}'una Hoş Geldiniz. 🥀\n\n➻ Harika özelliklere sahip, hızlı ve güçlü bir Telegram müzik çalar botu.\n\n Desteklenen Platformlar: </b>  YouTube, Spotify, Resco, Apple Music ve SoundCloud.\n──────────────────\n <b>๏ Modüllerim ve komutlarım hakkında bilgi almak için Komutlar butonuna tıklayın.</b>"
 start_3 : "**Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.**\n\n**Çalışmak için Sadece Sesli sohbetleri Yönetme ve Gruba Davet Etme Yetkisi Vermeniz Yeterlidir.** 🥀\n\n**Asistan Kullanıcı Adı:** @{1}"
 start_4 : "**{0}'un Sahibi {1} Sohbetinize Katıldı.** 👑"
 start_5 : "**{0}'i Çok Kıymetli {1} Beyefendinin Grubunuza Katıldığını Fark Etti. Kendisine Saygılarımı Sunarım.** 🙏"
