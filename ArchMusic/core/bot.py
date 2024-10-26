@@ -35,7 +35,7 @@ group_commands = [
     BotCommand("playmode", "⚙️Admin ayarları"),
     BotCommand("restart", "🔃 Botu Yeniden Başlatır"),
     BotCommand("reload", "❤️‍🔥 Yönetici Önbelleğini Günceller"),
-    BotCommand("etiket", "🏷️KOMUTLARI❤️"),
+    BotCommand("uye", "Grup Üyesi Satın Al🙋️"),
     BotCommand("tag", "🏷️Tek tek etiketler.ı"),
     BotCommand("utag", "🏷️Çoklu etiketler."),
     BotCommand("etag", "🏷️Emoji ile etiketler."),
