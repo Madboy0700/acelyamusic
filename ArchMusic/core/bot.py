@@ -44,7 +44,7 @@ group_commands = [
     BotCommand("stag", "🏷️Sözlerle etiketler."),
     BotCommand("igtag", "🏷️İyigeceler sözleri ile etiketler."),
     BotCommand("guntag", "🏷️Günaydın sözleri ile etiketler."),
-    BotCommand("stop", "❌Etiket İşlemini Bitirir."),
+    BotCommand("cancel", "❌Etiket İşlemini Bitirir."),
     BotCommand("chatmode", "💬 sohbet aç - kapat."),
     BotCommand("eros", "💘Eros oku atar."),
     BotCommand("burc", "⚖️Burçlarınızı yorumlarım.ı"),
