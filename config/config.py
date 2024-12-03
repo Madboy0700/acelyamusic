@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "25367211"))
+API_ID = int(getenv("API_ID", "25489180"))
 
-API_HASH = getenv("API_HASH", "622c6c7d4a16ab160758b160786b0be6")
+API_HASH = getenv("API_HASH", "acefb67aaa5647ce2b0362b485d6c743")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6558463329:AAFTQGcb6OFOchDV-bO5-uZmWBmVyu3rh54")
+BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAEtZU2nkvhhe8vJx4KCZfjorEe5d77XnPc")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://gezginbey1:mytmyt4747@cluster0.ha1v0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy123:madboy0707@madboy07.r1nef.mongodb.net/?retryWrites=true&w=majority&appName=madboy07")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -42,27 +42,27 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002352102473))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","ElifMuzikBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","AcelyaMusicBot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "1860611760").split())
+    map(int, getenv("OWNER_ID", "5901320319").split())
 
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-1f0b9d66-abb4-4a57-b2e6-6967ce74b022")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "geceekspess")
 
 # For customized or modified Repository
 
@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/Meyit47zade/MytMzk-",
+    "https://github.com/Madboy0700/acelyamusic",
 
 )
 
@@ -78,27 +78,27 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Only  Links formats are  accepted for this Var value.
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/Gezginduyuru") # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "https://t.me/AcelyaDuyuruu") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/Keyfisohbettr")  # Example:- https://t.me/ARCH_SUPPORTS
+    "SUPPORT_GROUP", "https://t.me/Sohbetikidebir")  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "true")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false")
 
 # Time after which you're assistant account will leave chats automatically.
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
 
-    getenv("ASSISTANT_LEAVE_TIME", "3400")
+    getenv("ASSISTANT_LEAVE_TIME", "5400")
 
 )  # Remember to give value in Seconds
 
@@ -106,7 +106,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 
 AUTO_SUGGESTION_TIME = int(
 
-    getenv("AUTO_SUGGESTION_TIME", "3400")
+    getenv("AUTO_SUGGESTION_TIME", "5400")
 
 )  # Remember to give value in Seconds
 
@@ -132,7 +132,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
 
-GITHUB_REPO = getenv("GITHUB_REPO", None) 
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Madboy0700/acelyamusic") 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 
@@ -183,7 +183,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BAFD_lkAjDSLU0mryCEuTV6ruDzvH1UF9rodMH3-dTZdMIU8sW-2HomkIYxSUmmyuWDmocUI6CV_JcyZmlUfZQEfrhV3LzR9CH6viyTB5xHfppYmg4phiTlTfPPRIKZnPpRctDPw3D9c30NLl_wxtQxDlVWmcRTo_BK8REKZ3JoJcevOaKNNLDBc4Zh7znToUaE0sjosZtluf8FlaZiWY7HrVkyf4gPduA0Jq2SGz-iIetZqNQJp3W03mjPUXdsT_GGEwe7FKzE3LvokgWEtNHbGffMjvkH2IhQ7VT_5l4r0Tw1t4XLjGNNblJdeFyio1AOSnH0pdNxZOM2E1HePh3y8nnvXsQAAAAG_4fASAA")
+
+STRING1 = getenv("STRING_SESSION", "BAGE7xwAcpixu0Bio-5uZTGszkcWJGULKe8b9J90n1AhZQtsplLd1681K1PecOFr7aGyEFsivYYvvFt6mZtiTGC6O105WlVFuABFVa5IliYZV1ICzV96MBDDUJsi54-XIdkx4DAumPUkSD9SpJ2I8mW7K1389jINLu1xp0bWe0EchDnZZjopLTPVD8XiZlgXw2MbEojf3Nt_J_1Y9ipvCPZy2AsGPPUlrySEN6yFqDapTbf9e3NORaJkmaMOuOQZLqEVaPKdKloSuAwYCAIqLmJVwXuRNfDtXQiaVj0nxRrbl4-ki973WONVUWT7ttUfcQECv9Fn0SCZrOJ1x-bB2W7OM_YWSAAAAAGim75bAA")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
@@ -223,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://i.imghippo.com/files/dS0EY1726416364.jpg",
+     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
      
 
 )
@@ -232,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -240,7 +241,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -248,7 +249,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -256,7 +257,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -264,7 +265,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -272,7 +273,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -280,7 +281,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -288,7 +289,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -296,7 +297,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -304,7 +305,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -312,7 +313,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
@@ -320,7 +321,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVLFVl0gIGQWKZ1Z7B4Vqw_Z9-05Xr3aHIw&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4koQfWjYqyjiyJZUSvUhZFr6QpKGEIkIww&s",
 
 )
 
