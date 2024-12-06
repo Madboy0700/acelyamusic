@@ -52,7 +52,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","AcelyaMusicBot")
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "5901320319").split())
+    map(int, getenv("OWNER_ID", "7675940993").split())
 
 )  # Input type must be interger
 
@@ -184,9 +184,9 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BAGE7xwAcpixu0Bio-5uZTGszkcWJGULKe8b9J90n1AhZQtsplLd1681K1PecOFr7aGyEFsivYYvvFt6mZtiTGC6O105WlVFuABFVa5IliYZV1ICzV96MBDDUJsi54-XIdkx4DAumPUkSD9SpJ2I8mW7K1389jINLu1xp0bWe0EchDnZZjopLTPVD8XiZlgXw2MbEojf3Nt_J_1Y9ipvCPZy2AsGPPUlrySEN6yFqDapTbf9e3NORaJkmaMOuOQZLqEVaPKdKloSuAwYCAIqLmJVwXuRNfDtXQiaVj0nxRrbl4-ki973WONVUWT7ttUfcQECv9Fn0SCZrOJ1x-bB2W7OM_YWSAAAAAGim75bAA")
+STRING1 = getenv("STRING_SESSION", "BAFvCbAAKjhITI6OGJtzT9j94rEzfwOo9adGywnTNxeiKe3AHnvIYuGrJ47QVk6GG6xN6HpVSOyEcomcDoJz8St0cXLntNiF3Fpzk8IF2Jxcu2gkvRSBjBNwDZJ8eSOzKO5P8akLbQ7Gk5n6Acw1lulIFf2vFyT5Ob0bJen0YZ_zW93a9CmD1-0Sd3SMWPFB8Ao5zWXQmTYrbR6d3XeU21RqYuyK4QtTx9z425xnKCeQ5pOopnk51rdPB_82oig-ntofPLcG1oy-R9JzgsHdTlkCz00gzzj0NYd1viGqrKlhyAWtFJrFtI8TAgy3nytxv4r99xb0WuqGcOxlWtUazWO2f-xjawAAAAHJhZCBAA")
 
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2", "BAFlvasAnZxfpOT6OrDOTVnmxiNz9KgouA8Ylt5g4-btilLV0-gblQEHYXM93gmRAQfiagsr21YemimQKu73lqGaUKULYa1aIUSdJAk9n1bnFAxyrbL8TT4dMTWFtGByB_MwC_6B8_Gr4g8lZ5fIumZKvryQHtVi4J577DGI_j2NLYd1A7hSDEw4bPszIcqGJCiCLLrbZdFJ-iicx3ruNWB_aNrnP7qutWImSxN7-QypEmFti0t54H_gAK9Qf7V-Lq-K3B14N4uz-9iKpQZLx8RH1LomOhvydKQ_TPwDBXvbG6oSLY5VcZ_aYXgQgxtOr5T1OSLll55bVlTBNqi2v3W5gYXVFQAAAAHK81kqAA")
 
 STRING3 = getenv("STRING_SESSION3", None)
 
