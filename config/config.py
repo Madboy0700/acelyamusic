@@ -224,7 +224,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
      "START_IMG_URL", 
-     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
      
 
 )
@@ -233,7 +233,7 @@ PING_IMG_URL = getenv(
 
     "PING_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -241,7 +241,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -249,7 +249,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -257,7 +257,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -265,7 +265,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -273,7 +273,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -281,7 +281,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -289,7 +289,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -297,7 +297,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -305,7 +305,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -313,7 +313,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
@@ -321,7 +321,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-g-vS7NmKnvDRXzzFrxlC1kbyBHk7IUJgJQ&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeQdhNfg2pqwKXXGxHXMqrWcdH-9_Pp9LDg&usqp=CAU",
 
 )
 
