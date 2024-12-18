@@ -12,9 +12,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "29156014"))
+API_ID = int(getenv("API_ID", "24054192"))
 
-API_HASH = getenv("API_HASH", "a8b1610a40d36e880bffc1ba81e15d5b")
+API_HASH = getenv("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
 
 ## Get it from @Botfather in Telegram.
 
